@@ -4,5 +4,5 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt 
 COPY app.py .
 EXPOSE 5000
-CMD ["Python","app.py"]
+CMD ["python","app.py"]
 
